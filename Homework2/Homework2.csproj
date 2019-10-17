@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AudiFactory.cs" />
+    <Compile Include="AutoParts\Engine.cs" />
+    <Compile Include="AutoParts\VehicleInterior.cs" />
+    <Compile Include="AutoParts\Headlights.cs" />
+    <Compile Include="AutoParts\SteeringWheel.cs" />
+    <Compile Include="AutoFactory.cs" />
+    <Compile Include="BmwFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Factories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

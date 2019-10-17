@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Homework2.AutoParts
+﻿namespace Homework2.AutoParts
 {
-    interface IVehicleInterior
+    public interface IVehicleInterior
     {
+        string Name { get; }
+    }
+
+    public class VeloursInterior: IVehicleInterior
+    {
+        public string Name => "Braun Velours";
+    }
+
+    public class LeatherInterior: IVehicleInterior
+    {
+        public string Name => "Black Leather";
     }
 }
