@@ -41,7 +41,22 @@
         </e>
       </e>
       <e p="Homework5" t="IncludeRecursive">
+        <e p="Api" t="Include">
+          <e p="IApi.cs" t="Include" />
+          <e p="MockApi.cs" t="Include" />
+        </e>
+        <e p="ApiDecorators" t="Include">
+          <e p="ChatClientDecoratorBase.cs" t="Include" />
+          <e p="DecoratorsBuilder.cs" t="Include" />
+          <e p="EncryptionDecorator.cs" t="Include" />
+          <e p="HidingNamesDecorator.cs" t="Include" />
+        </e>
+        <e p="ChatClient" t="Include">
+          <e p="ChatClient.cs" t="Include" />
+          <e p="IChatClient.cs" t="Include" />
+        </e>
         <e p="Homework5.csproj" t="IncludeRecursive" />
+        <e p="Message.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
