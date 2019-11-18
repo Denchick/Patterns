@@ -6,6 +6,6 @@ namespace Homework5
         public string To { get; set; }
         public string Text { get;set; }
 
-        public override string ToString() => $"From: {Author}\nTo: {To}\n\n{Text}";
+        public override string ToString() => $"From: {Author}\nTo: {To}\nText: {Text}";
     }
 }

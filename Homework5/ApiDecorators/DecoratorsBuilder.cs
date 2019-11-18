@@ -1,23 +1,23 @@
-using Homework5.ChatClient;
+using Homework5.Api;
 
-namespace Homework5.ChatClientDecorators
+namespace Homework5.ApiDecorators
 {
-    public class DecoratorBuilder
+    public class DecoratorsBuilder
     {
         private IApi _api;
 
-        public DecoratorBuilder(IApi api)
+        public DecoratorsBuilder(IApi api)
         {
             _api = api;
         }
 
-        public DecoratorBuilder WithEncryption()
+        public DecoratorsBuilder WithEncryption()
         {
             _api = new EncryptionDecorator(_api);
             return this;
         }
 
-        public DecoratorBuilder WithHidingNames()
+        public DecoratorsBuilder WithHidingNames()
         {
             _api = new HidingNamesDecorator(_api);
             return this;

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Homework5
+namespace Homework5.Api
 {
     public interface IApi
     {

@@ -46,7 +46,7 @@
           <e p="MockApi.cs" t="Include" />
         </e>
         <e p="ApiDecorators" t="Include">
-          <e p="ChatClientDecoratorBase.cs" t="Include" />
+          <e p="ApiDecoratorBase.cs" t="Include" />
           <e p="DecoratorsBuilder.cs" t="Include" />
           <e p="EncryptionDecorator.cs" t="Include" />
           <e p="HidingNamesDecorator.cs" t="Include" />

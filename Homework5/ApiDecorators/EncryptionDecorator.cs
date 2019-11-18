@@ -1,4 +1,6 @@
-namespace Homework5.ChatClient
+using Homework5.Api;
+
+namespace Homework5.ApiDecorators
 {
     public class EncryptionDecorator : ApiDecoratorBase
     {
@@ -19,6 +21,6 @@ namespace Homework5.ChatClient
         }
 
         private string Encrypt(string text) => $"<enctypted>{text}</encrypted>";
-        private string Decrypt(string text) => text.Substring(10, text.Length - 10);
+        private string Decrypt(string text) => text.Substring(11, text.Length - 23);
     }
 }

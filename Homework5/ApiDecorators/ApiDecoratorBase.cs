@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
+using Homework5.Api;
 
-namespace Homework5.ChatClient
+namespace Homework5.ApiDecorators
 {
     public class ApiDecoratorBase : IApi
     {

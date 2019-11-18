@@ -1,4 +1,6 @@
-namespace Homework5.ChatClient
+using Homework5.Api;
+
+namespace Homework5.ApiDecorators
 {
     public class HidingNamesDecorator : ApiDecoratorBase
     {
