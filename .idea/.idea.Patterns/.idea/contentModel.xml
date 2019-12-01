@@ -17,26 +17,16 @@
         <e p="Homework5.csproj" t="IncludeRecursive" />
       </e>
       <e p="Homework6" t="IncludeRecursive">
-        <e p="Bancomat.cs" t="Include" />
-        <e p="Banknotes" t="Include">
-          <e p="DollarBanknote.cs" t="Include" />
-          <e p="EuroBanknote.cs" t="Include" />
-          <e p="IBanknote.cs" t="Include" />
-          <e p="RubleBanknote.cs" t="Include" />
-        </e>
-        <e p="CurrencyType.cs" t="Include" />
-        <e p="Handlers" t="Include">
-          <e p="BanknoteHandlerBase.cs" t="Include" />
-          <e p="DollarHandlers.cs" t="Include" />
-          <e p="ErrorBanknoteHandler.cs" t="Include" />
-        </e>
         <e p="Homework6.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Homework7" t="IncludeRecursive">
+        <e p="Homework7.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="Homework6.AssemblyInfo.cs" t="Include" />
+              <e p="Homework7.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
