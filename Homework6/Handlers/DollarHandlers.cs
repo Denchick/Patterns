@@ -19,11 +19,36 @@ namespace Homework6
 
     }
 
+    public class TwentyDollarHandler : BanknoteHandlerBase
+    {
+        protected override IBanknote Banknote => new TwentyDollarBanknote();
+        
+        public TwentyDollarHandler(BanknoteHandlerBase nextHandlerBase) : base(nextHandlerBase)
+        { }
+
+    }
+
     public class TenDollarHandler : BanknoteHandlerBase
     {
         protected override IBanknote Banknote => new TenDollarBanknote();
         
         public TenDollarHandler(BanknoteHandlerBase nextHandlerBase) : base(nextHandlerBase)
+        { }
+    }
+
+    public class FiveDollarHandler : BanknoteHandlerBase
+    {
+        protected override IBanknote Banknote => new FiveDollarBanknote();
+        
+        public FiveDollarHandler(BanknoteHandlerBase nextHandlerBase) : base(nextHandlerBase)
+        { }
+    }
+
+    public class TwoDollarHandler : BanknoteHandlerBase
+    {
+        protected override IBanknote Banknote => new TwoDollarBanknote();
+        
+        public TwoDollarHandler(BanknoteHandlerBase nextHandlerBase) : base(nextHandlerBase)
         { }
     }
     

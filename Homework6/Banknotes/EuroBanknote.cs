@@ -7,7 +7,7 @@ namespace Homework6.Banknotes
 
         public override string ToString()
         {
-            return $"{Value} EU";
+            return $"{Value}EU";
         }
     }
 
