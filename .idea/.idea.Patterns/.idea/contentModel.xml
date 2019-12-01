@@ -11,58 +11,32 @@
         <e p="Homework3.csproj" t="IncludeRecursive" />
       </e>
       <e p="Homework4" t="IncludeRecursive">
-        <e p="Clients" t="Include">
-          <e p="UserClient.cs" t="Include" />
-        </e>
-        <e p="FirstOrmLibrary" t="Include">
-          <e p="FirstOrmAdapter.cs" t="Include" />
-          <e p="IFirstOrm.cs" t="Include" />
-        </e>
         <e p="Homework4.csproj" t="IncludeRecursive" />
-        <e p="IOrmAdapter.cs" t="Include" />
-        <e p="Models" t="Include">
-          <e p="DbUserEntity.cs" t="Include" />
-          <e p="DbUserInfoEntity.cs" t="Include" />
-          <e p="Interfaces" t="Include">
-            <e p="IDbEntity.cs" t="Include" />
-          </e>
-        </e>
-        <e p="SecondOrmLibrary" t="Include">
-          <e p="ISecondOrm.cs" t="Include" />
-          <e p="SecondOrmAdapter.cs" t="Include" />
-        </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="Homework4.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
       </e>
       <e p="Homework5" t="IncludeRecursive">
-        <e p="Api" t="Include">
-          <e p="IApi.cs" t="Include" />
-          <e p="MockApi.cs" t="Include" />
-        </e>
-        <e p="ApiDecorators" t="Include">
-          <e p="ApiDecoratorBase.cs" t="Include" />
-          <e p="DecoratorsBuilder.cs" t="Include" />
-          <e p="EncryptionDecorator.cs" t="Include" />
-          <e p="HidingNamesDecorator.cs" t="Include" />
-        </e>
-        <e p="ChatClient" t="Include">
-          <e p="ChatClient.cs" t="Include" />
-          <e p="IChatClient.cs" t="Include" />
-        </e>
         <e p="Homework5.csproj" t="IncludeRecursive" />
-        <e p="Message.cs" t="Include" />
+      </e>
+      <e p="Homework6" t="IncludeRecursive">
+        <e p="Bancomat.cs" t="Include" />
+        <e p="Banknotes" t="Include">
+          <e p="DollarBanknote.cs" t="Include" />
+          <e p="EuroBanknote.cs" t="Include" />
+          <e p="IBanknote.cs" t="Include" />
+          <e p="RubleBanknote.cs" t="Include" />
+        </e>
+        <e p="CurrencyType.cs" t="Include" />
+        <e p="Handlers" t="Include">
+          <e p="BanknoteHandlerBase.cs" t="Include" />
+          <e p="DollarHandlers.cs" t="Include" />
+          <e p="ErrorBanknoteHandler.cs" t="Include" />
+        </e>
+        <e p="Homework6.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="Homework5.AssemblyInfo.cs" t="Include" />
+              <e p="Homework6.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
