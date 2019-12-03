@@ -20,8 +20,17 @@
         <e p="Homework6.csproj" t="IncludeRecursive" />
       </e>
       <e p="Homework7" t="IncludeRecursive">
+        <e p="CopyMachine.cs" t="Include" />
+        <e p="Device.cs" t="Include" />
         <e p="Homework7.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
+        <e p="State.cs" t="Include" />
+        <e p="States" t="Include">
+          <e p="PrintSetupState.cs" t="Include" />
+          <e p="PrintingState.cs" t="Include" />
+          <e p="TakingChangeState.cs" t="Include" />
+          <e p="WaitingMoneyState.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
