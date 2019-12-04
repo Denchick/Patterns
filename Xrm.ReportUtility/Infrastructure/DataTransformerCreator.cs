@@ -6,7 +6,8 @@ namespace Xrm.ReportUtility.Infrastructure
 {
     public static class DataTransformerCreator
     {
-        // TODO ChainOfResponsibility
+        // Код как в домашке про банкомат.
+        // ChainOfResponsibility
         public static IDataTransformer CreateTransformer(ReportConfig config)
         {
             IDataTransformer service = new DataTransformer(config);
